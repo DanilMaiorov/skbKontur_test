@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="./script.js" defer></script>
+  <title>DM to SKBKontur</title>
+</head>
+<body>
+  <div class="wrapper">
+
+  <!-- HEADER -->
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a class="header__logo-link" href="#header">danya_mayorov</a>
+        </div>
+        <div class="burger">
+          <div class="burger__button">
+            <span class="burger__button-line">
+            </span>
+          </div>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#about">О себе</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#education">Образование и опыт</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#hobbie">Увлечения</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+
+  <main class="main">
+
+    <!-- ABOUT -->
+    
+    <section class="about" id="about">
+      <div class="container">
+        <h1 class="about__title title">Привет, меня зовут <br> 
+          <span class="about__title--name">Данил Майоров</span> 
+        </h1>
+        <div class="about__inner">
+          <article class="about__description">
+            <p class="about__description-item">
+              Привет, Я Данил Майоров. Мне 29 лет и я мечтаю стать веб-разработчиком. 
+            </p>
+            <p class="about__description-item">
+              Я из холодного Екатеринбурга, столицы Урала.
+            </p>
+            <p class="about__description-item">
+              Это я на фото:)
+            </p>
+            <p class="about__description-item">
+              По жизни иду с улыбкой и с зарядом оптимизма. Смотрю в лицо страхам и преодолеваю их, ведь где страшно, там есть правильный путь.
+            </p>
+            <p class="about__description-item">
+              Женат, детишек пока что нет:)
+            </p>
+          </article>
+          <picture class="about__img">
+            <img src="https://images2.imgbox.com/79/b0/2bjpt84i_o.jpg" alt="me">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- EDUCATION -->
+
+    <section class="education" id="education">
+      <div class="container">
+        <h2 class="education__title title">Образование и опыт</h2>
+        <div class="education__inner">
+          <aside class="education__accordeon">
+            <ul class="education__accordeon-item university">
+              <div class="education__accordeon-trigger">Высшее образование</div>
+              <li class="education__accordeon-content university-item">
+                УрГУПС
+              </li>
+            </ul>
+            <ul class="education__accordeon-item webdev">
+              <div class="education__accordeon-trigger">Обучение Web-разработке</div>
+              <li class="education__accordeon-content webdev-item">
+                HTML&CSS
+              </li>
+              <li class="education__accordeon-content webdev-item">
+                MDN
+              </li>
+              <li class="education__accordeon-content webdev-item">
+                GLO-Academy
+              </li>
+              <li class="education__accordeon-content webdev-item">
+                LearnJavaScript.ru 
+              </li>
+            </ul>
+          </aside>
+          <div class="education__places">
+            <div class="education__places-cover">
+              <p class="education__places-text">
+                Учиться, учиться и еще раз учиться! Это основная деятельность, которой я сейчас занимаюсь. А конкретно, я занимаюсь обучением веб-разработке. Имею за плечами институт, образование которого, безусловно очень полезно и востребовано, но я выбрал путь веб-разработки. 
+              </p>
+              <p class="education__places-text">
+                За исключением нескольких фриланс-проектов, иного коммерческого опыта я еще не имею, но изо дня в день я развиваюсь, чтобы получить заветное место в команде стажеров СКБ Контура.
+              </p>
+              
+            </div>
+            <div data-education="0" class="education__places-university">
+              <p class="education__university-text">
+                Я закончил Уральский государственный университет путей сообщения в 2015 году. Строительный факультет. По образованию я инженер путей сообщения. 
+              </p>
+              <picture class="education__university-img">
+                <img src="https://i.ekmap.ru/original/13461.jpg" alt="usurt">
+              </picture>
+            </div>
+            <div data-education="1" class="education__places-webdev">
+              <article class="education__places-webdev--cover">
+                <p class="education__places-text">
+                  Познакомился с веб разработкой я в 2020 году, когда началась пандемия, но в серьез стал изучать разработку чуть больше, чем год назад. За этот короткий промежуток времени, я могу сказать, что уже что-то умею:) 
+                </p>
+                <p class="education__places-text">
+                  Ниже ссылка на мой сайт-визитку, который, возможно будет вам интересен. А также приложу ссылку на свой GitHub
+                </p>
+                <a class="education__places-link personal-page" href="https://danilmaiorov.github.io/personalSite_MaiorovDanil/" target="_blank">Мой сайт-визитка</a>
+                <a class="education__places-link" href="https://github.com/DanilMaiorov" target="_blank">Мой GitHub</a>
+                <a class="education__places-link test-tasks" href="https://codesandbox.io/s/front-school-blank-forked-m24t7u" target="_blank">ДОСКА С ТЕСТОВЫМИ ЗАДАЧАМИ</a>
+              </article>
+              <div data-web="0" class="education__places-webdev-item hidden">
+                <div class="education__webdev-text-wrapper">
+                  <p class="education__webdev-item-title">
+                    HTML&CSS
+                  </p>
+                  <p class="education__webdev-item-subtitle">
+                    Язык разметки и таблицы стилей
+                  </p>
+                  <p class="education__webdev-item-text">
+                    Изучение данных разделов я начал с прохождения курса на Udemy.com, продолжил еще одним курсом с Udemy, совмещая это чтением документации.
+                  </p>
+                </div>
+                  <picture class="education__webdev-item-img">
+                    <img src="https://istanbulbogazicienstitu.com/view/images/blog/onecikan/html-css-nedir-html-css-egitimi-nedir.jpg" alt="htmlcss">
+                  </picture>
+              </div>
+              <div data-web="1" class="education__places-webdev-item hidden">
+                  <picture class="education__webdev-item-img">
+                    <img src="https://insights.developer.mozilla.org/assets/opengraph-logo.png" alt="usurt">
+                  </picture>
+                <div class="education__webdev-text-wrapper">
+                  <p class="education__webdev-item-title">
+                    MDN Web Docs
+                  </p>
+                  <p class="education__webdev-item-subtitle">
+                    Академия верстки
+                  </p>
+                  <p class="education__webdev-item-text">
+                    Не нуждается в представлении. Начал обращаться к документации от Mozilla когда начал заниматься разработкой и версткой и регулярно обращаюсь и сейчас.
+                  </p>
+                </div>
+              </div>
+              <div data-web="2" class="education__places-webdev-item hidden">
+                <div class="education__webdev-text-wrapper">
+                  <p class="education__webdev-item-title">
+                    GLO-Academy
+                  </p>
+                  <p class="education__webdev-item-subtitle">
+                    Академия верстки
+                  </p>
+                  <p class="education__webdev-item-text">
+                    В феврале 2022 года я закончил интенсивный курс по языку JavaScript от вышеуказанной академии.
+                  </p>
+                </div>
+                <picture class="education__webdev-item-img">
+                  <img src="https://images2.imgbox.com/dd/0a/TKbtF4Fx_o.png" alt="GLO-Academy">
+                </picture>
+              </div>
+              <div data-web="3" class="education__places-webdev-item hidden">
+                <picture class="education__webdev-item-img">
+                  <img src="https://c.disquscdn.com/uploads/forums/119/2968/favicon.png" alt="learnjs">
+                </picture>
+                <div class="education__webdev-text-wrapper">
+                  <p class="education__webdev-item-title">
+                    LearnJavaScript.ru 
+                  </p>
+                  <p class="education__webdev-item-subtitle">
+                    Современный учебник JavaScript
+                  </p>
+                  <p class="education__webdev-item-text">
+                    Закончил изучение двух частей данного учебника. Мой верный спутник в изучении и повторении JS, к ресурсам которого я обращаюсь время от времени, чтобы повторить непростые темы.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- HOBBIE -->
+
+      <section class="hobbie" id="hobbie">
+        <div class="container">
+          <h2 class="hobbie__title title">Увлечения и хобби</h2>
+            <div class="hobbie__inner">
+              <div class="hobbie__item">
+                <p class="hobbie__item-text">
+                  Люблю погонять мяч! Фанат Manchester United.
+                </p>
+                <picture class="hobbie__item-img football">
+                  <img src="https://cdn-icons-png.flaticon.com/512/46/46156.png" alt="hobbie_1">
+                </picture>
+              </div>
+              <div class="hobbie__item">
+                <p class="hobbie__item-text">
+                  Не представляю и дня, чтобы не написать строчку кода.
+                </p>
+                <picture class="hobbie__item-img code">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2749/2749134.png" alt="hobbie_4">
+                </picture>
+              </div>
+              <div class="hobbie__item">
+                <p class="hobbie__item-text">
+                  Мозайки мое все!
+                </p>
+                <picture class="hobbie__item-img puzzle">
+                  <img src="https://cdn-icons-png.flaticon.com/512/4205/4205637.png" alt="hobbie_3">
+                </picture>
+              </div>
+              <div class="hobbie__item">
+                <p class="hobbie__item-text">
+                  Не представляю своей жизни без путешествий!
+                </p>
+                <picture class="hobbie__item-img airplane">
+                  <img src="https://cdn-icons-png.flaticon.com/512/31/31069.png" alt="hobbie_2">
+                </picture>
+              </div>
+              <div class="hobbie__item">
+                <p class="hobbie__item-text">
+                  Лучше гор могут быть только горы, на которых ещё не бывал!
+                </p>
+                <picture class="hobbie__item-img mountain">
+                  <img src="https://cdn-icons-png.flaticon.com/512/94/94588.png" alt="hobbie_3">
+                </picture>
+              </div>
+            </div>
+        </div>
+      </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <a class="footer__logo-link" href="#header">danya_mayorov</a>
+        </div>
+        <div class="footer__social">
+          <a class="footer__social-link" href="https://vk.com/dan1q" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3670/3670055.png" alt="vk">
+          </a>
+          <a class="footer__social-link" href="https://t.me/dan1q" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="tg">
+          </a>
+          <a class="footer__social-link" href="https://github.com/DanilMaiorov" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="github">
+          </a>
+          <a class="footer__social-link" href="https://www.instagram.com/danyamayorov/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" alt="inst">
+          </a>
+        </div>
+        <span class="footer__name">
+          Данил Майоров 2022.
+        </span>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
+</body>
+</html>
